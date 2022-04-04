@@ -1,0 +1,198 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62,5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  color: #2b2d42;
+  min-width: 370px;
+  gap: 4.6rem;
+  -webkit-transition: background 1s;
+  transition: background 1s;
+}
+
+.main .content {
+  width: calc(100% - 50px);
+  max-width: 670px;
+}
+
+.main .content h1 {
+  text-align: center;
+  margin-bottom: .8rem;
+}
+
+.dark {
+  background: black;
+  color: white;
+}
+.theme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  width: 6.4rem;
+  cursor: pointer;
+}
+
+.theme img {
+  width: 1.4rem;
+  margin-right: .2rem;
+}
+
+.theme img:last-child {
+  width: 1.3rem;
+  margin-left: .2rem;
+}
+
+.theme .themeBar {
+  position: relative;
+  width: 5rem;
+  border: .1rem solid #2b2d42;
+  border-radius: 2.5rem;
+}
+
+.theme .themeBar.dark {
+  border: .1rem solid white;
+}
+
+.theme .ball {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 50%;
+  background: #2b2d42;
+  content: "";
+  -webkit-transition: left 1s;
+  transition: left 1s;
+}
+
+.theme .ball.dark {
+  background: white;
+}
+
+.theme .ball.change {
+  left: calc(100% - 1.3rem);
+}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 1480px;
+  padding: 1rem;
+}
+.done{
+    text-decoration: line-through;
+}
+h1{
+    text-align: center;
+    color: purple;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
+    word-break: break-all;
+    border: solid 1px purple;
+    border-radius: 15px;
+}
+.card{
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.hide{
+    display: none;
+} 
+  .tasksForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    padding: .8rem 0rem;
+    margin-bottom: 1.4rem;
+  }
+  
+  .tasksForm input {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #2b2d42;
+    width: calc(100% - 70px);
+    margin-left: 10px;
+    border: .1rem solid #2b2d42;
+    border-radius: 1rem;
+    outline: white;
+    padding: .5rem 1.2rem;
+   
+  }
+  
+  .tasksForm button {
+    color: white;
+    font-size: 1.4rem;
+    border: none;
+    background: purple;
+    height: 2.6rem;
+    width: 2.6rem;
+    border-radius: 1.3rem;
+    margin-left: .7rem;
+    -webkit-transition: .2s;
+    transition: .2s;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .tasksForm button:hover {
+    -webkit-filter: brightness(1.4);
+            filter: brightness(1.4);
+  }
+  
+  .tasksForm .dark {
+    color: #2b2d42;
+    background: white;
+  }
