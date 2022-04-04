@@ -1,6 +1,6 @@
 # Login de Usuário usando Node.js e Mongo DB
 
-## Um mural de avisos com as seguintes tecnologias:
+## Um mural de avisos com a seguinte tecnologia:
 <div style="display=inline-block">
 <img src=https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" width="300px" height="100px" >
  </div>
