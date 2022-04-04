@@ -17,8 +17,8 @@
 - <img src="./giff.gif">
 
 ## Observação:
-- Não consegui subir o porjeto, mas ele está disponível no google drive: https://drive.google.com/file/d/1HstdatGzxHqFSj4atuEo7sPhnPKsFyBz/view?usp=sharing
-- Para rodar apenas basta baixar e no terminal colocar: npm start e no navegador: http://localhost:3000
+- Não consegui subir o porjeto, mas ele está disponível no google drive: https://drive.google.com/file/d/1ohjje54zz7RWmGQow5QgGuWuQ8DBOzK7/view?usp=sharing
+- Para rodar apenas basta baixar e no terminal colocar: npm start
 - Pronto, fazendo esses passos você pode testar a aplicação
 
 ## Gostou do meu projeto? :D Entre em contato comigo! 
